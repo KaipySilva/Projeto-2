@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Cadastro de Clientes</title>
+</head>
+<body>
+<div class="container">
+    <header>
+        <H1 class="contorno">Cadastro de Novos Clientes</H1>
+    </header>
+    <form id="form-clientes">
+        <input type="text" id="CadastroNome" required placeholder="Nome do Cliente"/>
+        <input type="number" id="CadastroCpfCnpj" required placeholder="CPF/CNJP"/>
+        <input type="number" id="CadastroNumero" required placeholder="Número do Cliente">
+        <button type="submit">Cadastrar+</button>
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th class="contorno">
+                    Clientes
+                </th>
+                <th class="contorno">
+                    CPF/CNJP
+                </th>
+                <th class="contorno">
+                    Número do Cliente
+                </th>
+                <th class="contorno">
+                    Situação
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th class="contorno">
+                    ----
+                </th>
+                <th class="contorno">
+                    ----
+                </th>
+                <th class="contorno">
+                    ----
+                </th id="pendente">
+                <th class="contorno">
+                    ----
+                </th>
+            </tr>
+        </tbody>
+    </table>
+    <footer>
+        <button id="EvniarTabela" type="reset"> Enviar Tabela</button>
+    </footer>
+
+
+</div>
+</body>
+<script src="./main.js"></script>
+</html>
